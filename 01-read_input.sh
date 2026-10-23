@@ -12,7 +12,11 @@ echo 'Your name was stored in $name'
 # filename and create an empty file named after it
 
 
+
 echo "What filename do you want to create?"
 read filename
 touch "$filename"
 echo "Created file: $filename"
+
+
+
